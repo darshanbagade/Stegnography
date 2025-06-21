@@ -11,8 +11,6 @@ This project allows users to:
 - Upload the encrypted image later and extract the hidden message using the correct password.
 
 ##  Preview / Demo
-
-## 📽️ Project Preview
 ![Demo Preview](./backend/static/uploaded/DemoPreview.gif)
 
 
