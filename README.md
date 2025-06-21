@@ -14,7 +14,7 @@ This project allows users to:
 
 ##  Preview / Demo
 
-<video controls src="DemoPreview.mp4" title="Title"></video>
+<video controls src="./backend/static/uploaded/DemoPreview.mp4" title="Title"></video>
 
 
 ##  Tech Stack
