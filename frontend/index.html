@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Steganography - LSB</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 class="heading">Steganography - Hiding Information into Image using LSB Technique</h1>
+
+  <div class="container">
+    <!-- Encryption Section -->
+    <div class="section" id="encryption">
+      <h2>Encryption</h2>
+
+        <input type="file" id="encrypt-image" accept="image/*" />
+        <img id="encrypt-preview" class="preview" />
+        <input type="text" id="secret-text" placeholder="Enter secret message" />
+        <input type="password" id="encrypt-password" placeholder="Enter password" />
+        <button onclick="encrypt()">Encrypt and Download</button>
+ 
+
+    </div>
+
+    <!-- Decryption Section -->
+    <div class="section" id="decryption">
+      <h2>Decryption</h2>
+     
+        <input type="file" id="decrypt-image" accept="image/*" />
+        <img id="decrypt-preview" class="preview" />
+        <input type="password" id="decrypt-password" placeholder="Enter password" />
+        <button  onclick="decrypt()">Decrypt</button>
+        <p id="decrypted-message"></p>
+      
+      
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
