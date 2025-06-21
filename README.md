@@ -1,10 +1,8 @@
-# Steganography – Hiding Secret infortmation Into Images using LSB (Least Significant Bit) Method
+# Steganography – Hiding Secret information Into Images using LSB (Least Significant Bit) Method
 
 A web application to hide and reveal secret messages inside images using the Least Significant Bit (LSB) steganography technique. Built with Python (Flask) on the backend and HTML/CSS/JavaScript on the frontend.
 
 ##  Project Overview
-
-This project was developed as part of the IBM Edunet Foundation’s six-week Cybersecurity Internship. During the internship, I gained hands-on experience with cybersecurity tools and techniques, such as VeraCrypt and configuring Kali Linux for ethical hacking and system analysis. The core objective of this project was to build a steganography-based system that enables secure text hiding within digital images to demonstrate practical applications of data protection and confidentiality.
 
 This project allows users to:
 - Hide a secret text message inside an image using LSB.
@@ -14,7 +12,8 @@ This project allows users to:
 
 ##  Preview / Demo
 
-<video controls src="./backend/static/uploaded/DemoPreview.mp4" title="Title"></video>
+## 📽️ Project Preview
+![Demo Preview](./backend/static/uploaded/DemoPreview.gif)
 
 
 ##  Tech Stack
